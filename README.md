@@ -1,3 +1,4 @@
 # AZS
 
-Przeglądać dokument można po otworzeniu za pomocą przeglądarki pliku index.html, by sprawdzić jak strona prezentuje się na innych urządzeniach należy kliknąć prawym przyciskiem myszy i wybrać zbadaj element, następnie w nowowyświetlonym oknie, na pasku nawigacyjnym wybrać ikonkę z telefonami i tabletami.
+Przegladac dokument mozna po pobraniu najnowszej jego wersji. Po wypakowaniu nalezy otworzyc forlder index.html przy pomocy przegladarki.
+ Jesli chcesz sprawdzic jak strona prezentuje się na innych urządzeniach należy kliknąć prawym przyciskiem myszy i wybrać zbadaj element, nastepnie w nowowyswietlonym oknie, na pasku nawigacyjnym wybrac ikone z telefonami i tabletami.
