@@ -1,0 +1,17 @@
+import { Component, OnInit } from '@angular/core';
+
+declare function alerting(): any;
+
+@Component({
+  selector: 'app-menu',
+  templateUrl: './menu.component.html',
+  styleUrls: ['./menu.component.css']
+})
+export class MenuComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
