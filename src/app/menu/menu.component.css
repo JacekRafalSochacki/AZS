@@ -11,4 +11,7 @@ li{
   transition: all .2s ease-in-out;
 }
 
+body{
+  padding-top: 100px;
+}
 
