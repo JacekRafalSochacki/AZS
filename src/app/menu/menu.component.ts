@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {alerting} from "C:/Users/Pancio/WebstormProjects/AZS_lyzwy/AZS/src/assets/js/menu.animation.js"
+declare var $:any;
 
 
 @Component({
@@ -13,19 +13,21 @@ export class MenuComponent implements OnInit {
 
   ngOnInit() {
 
-    window.onscroll= function() {
-      growShrinkLogo();
-    };
 
+    $(window).scroll(function (event) {
+      growShrinkLogo();
+      lastScroll = $(window).scrollTop();
+    });
     var lastScroll=0;
-    function growShrinkLogo() {
-      var Logo = document.getElementById("logo");
-      if ( document.documentElement.scrollTop  > lastScroll) {
-        Logo.style.height = '50px';
+
+      function growShrinkLogo() {
+      if ($(window).scrollTop() >lastScroll) {
+        $("#logo").height("50px");
+        $(".nav-link").css("fontSize","1rem");
       } else {
-        Logo.style.height = '100px';
+        $("#logo").height("100px");
+        $(".nav-link").css("fontSize","1.5rem");
       }
-      lastScroll=document.documentElement.scrollTop;
     }
 
 
