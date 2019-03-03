@@ -3,7 +3,6 @@ nav{
   text-align: center;
   position: fixed;
   top:0;
-  overflow: hidden;
   z-index: 100;
 }
 li{
@@ -11,4 +10,7 @@ li{
 }
 #logo, .nav-link{
   transition: all .2s ease-in-out;
+}
+.navbarDropdown {
+  z-index: 100;
 }
